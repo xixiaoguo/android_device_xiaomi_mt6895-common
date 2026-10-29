@@ -354,9 +354,6 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     android.hardware.wifi-service
 
-PRODUCT_PACKAGES += \
-    NcmTetheringOverlay
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
