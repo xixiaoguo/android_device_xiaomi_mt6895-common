@@ -175,10 +175,6 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayMT6895
 
 PRODUCT_PACKAGES += \
-    LineageApertureOverlayMT6895 \
-    LineageSettingsOverlayMT6895 \
-    LineageDialerMT6895 \
-    LineageSDKOverlayMT6895 \
     PowerOffAlarmOverlayMT6895
 
 # Udfps
