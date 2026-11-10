@@ -171,11 +171,9 @@ $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMT6895 \
     SettingsOverlayMT6895 \
+    PowerOffAlarmOverlayMT6895 \
     SettingsProviderResOverlayMT6895 \
     SystemUIOverlayMT6895
-
-PRODUCT_PACKAGES += \
-    PowerOffAlarmOverlayMT6895
 
 # Udfps
 PRODUCT_PACKAGES += \
